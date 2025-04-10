@@ -5,6 +5,7 @@
     text-decoration: none;
     color: black;
     font-size: 24;
+    margin-left: 31px;
 }
 .nav-text a{
     color: black;
@@ -119,7 +120,7 @@
     border: solid 1px #E5E7EB;
     width: 394.67px;
     height: 188px;
-    text-align: left;
+
     font-family: Montserrat;
     border-radius: 12px;
     text-align: center;
@@ -143,4 +144,191 @@
 }
 .services-content h1{
     margin-bottom: 45px;
+}
+
+.services-more{
+    text-align: center;
+    margin-top: 44px;
+    font-size: 28px;
+}
+
+
+.project{
+    background-color: #E5E7EB;
+    height: 784px;
+    width: 100%;
+    max-width: 1505px;
+    margin: auto;
+    text-align: center;
+    font-family: Montserrat;
+}
+.project-content{
+    padding-top:80px;
+
+}
+.project-content h1{
+    margin-bottom: 45px;
+}
+
+.project-list{
+    display: flex;
+    text-align: center;
+    margin-top: 77px;
+}
+
+.project-given{
+    height: 400px;
+    width: 608px;
+    margin: auto;
+
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+
+}
+
+.project-more{
+    margin-top: 102px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.project-img{
+    height: 400px;
+    width: 608px;
+    border-radius: 12px;
+    
+
+}
+.project-img img{
+    border-radius: 12px;
+}
+.project-desc{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    width: 572px;
+    height: 100px;
+    padding-left: 37px;
+    background: rgba(0, 0, 0, 0.7); /* Green background with 30% opacity */
+    border-bottom-left-radius:12px;
+    border-bottom-right-radius:12px;
+    
+}
+.project-desc h2{
+    margin-bottom: -7px;
+
+}
+
+.contact{
+    background-color: white;
+    height: 784px;
+    width: 100%;
+    max-width: 1505px;
+    margin: auto;
+    font-family: Montserrat;
+    
+}
+.contact-content{
+    display: flex;
+    padding-top: 102px;
+
+
+}
+.contact-me{
+    display: flex;
+}
+.contact-me i{
+    color: #000000;
+    text-align: center;
+    padding-top: 16px;
+    font-size: 21px;
+}
+.contact-me p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.contact-me-i i{
+    font-size: 21px;
+    padding-top: 16px;
+    margin-bottom: 28px;
+}
+.contact-me-btn Button{
+    width: 171px;
+    height: 46px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    margin-left: 98px;
+}
+.contact-details{
+    margin-left: 92px;
+    margin: auto;
+
+}
+
+.contact-inp input{
+    height: 50px;
+    width: 592px;
+    font-family: Montserrat;
+    color: #ADAEBC;
+    margin-bottom: 24px;
+}
+.contact-btn button{
+    text-align: center;
+    height: 50px;
+    width: 600px;
+    background-color: #000000;
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    
+}
+.contact-inp-msg textarea{
+    height: 340px;
+    width: 594px;
+    vertical-align: top;
+    color: #ADAEBC;
+    margin-bottom: 24px;
+    font-family: Montserrat;
+}
+.contact-msg {
+    margin: auto;
+    height: 592px;
+    width: 592px;
+}
+.footer{
+    margin: auto;
+    text-align: center;
+    height: 222px;
+    width: 100%;
+    max-width: 100vw;
+    background-color: black;
+    padding-top: 15px;
+}
+.footer-content{
+    margin: auto;  
+    font-family: Montserrat;
+    text-align: center;
+}
+.copyright{
+    color: #9CA3AF;
+    text-align: center;
+}
+.footer-writings{
+    display: flex;
+}
+.footer-text{
+    text-align: left;
+    margin: auto;
+}
+.footer-text a{
+   text-decoration: none;
+   margin-left: -43px;
+}
+.first a{
+    margin-left: -28px;
 }
