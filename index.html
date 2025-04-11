@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-...your-sha512-hash..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
     <script src="script.js" defer></script>
 </head>
 
@@ -201,16 +202,16 @@
                 <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
                 </div>
                 <div class="contact-me-btn">
-                    <button ><a href="Copy of Dilotte Resume Template.docx_page-0001.jpg" download="Copy of Dilotte Resume Template.docx_page-0001.jpg" style="color: white; text-decoration: none;">Download cv</a></button>
+                    <button onclick="download()" id="contact-me-btn">Download cv</button>
                 </div>
 
         </div>
         <div class="contact-msg">
-            <form action="">
-                <div class="contact-inp"><input type="text" placeholder="Your Name"></div>
-                <div class="contact-inp"><input type="email" placeholder="Email Address" ></div>
-                <div class="contact-inp-msg"><textarea type="text" placeholder="Your Message"></textarea></div>
-                <div class="contact-btn"><button>Send Message</button></div>
+            <form action="" id="contactForm">
+                <div class="contact-inp" ><input type="text" name="name" placeholder="Your Name"></div>
+                <div class="contact-inp"><input type="email" name="email" placeholder="Email Address" ></div>
+                <div class="contact-inp-msg"><textarea  type="text" name="message"placeholder="Your Message"></textarea></div>
+                <div class="contact-btn" id="contact-btn"><button id="contact-msg-btn" type="submit">Send Message</button></div>
             </form>
         </div>
     </div>

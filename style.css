@@ -302,6 +302,10 @@ body{
     color: white;
     margin-left: 98px;
 }
+#contact-me-btn:hover{
+    background-color: white;
+    color: #000000;
+}
 .contact-details{
     margin-left: 92px;
     margin: auto;
@@ -325,6 +329,10 @@ body{
     font-size: 16px;
     
 }
+#contact-btn:hover{
+    background-color: white;
+    color: black;
+}
 .contact-inp-msg textarea{
     height: 340px;
     width: 594px;
@@ -337,6 +345,11 @@ body{
     margin: auto;
     height: 592px;
     width: 592px;
+}
+#contact-msg-btn:hover{
+    background-color: white;
+    color: black;
+
 }
 footer{
     margin: auto;
