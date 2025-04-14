@@ -71,3 +71,41 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
   
     alert("Message saved to Excel!");
   });
+
+var display = 0;
+let navi = _f('navi')
+let intro = _f('intro')
+let about = _f('about')
+let contact = _f('contact')
+let project = _f('project')
+let footer = _f('footer')
+let projectMore = _f('project-more')
+let servicesMore = _f('services-more')
+  function dashClick(){
+    if(display ==1){
+        navi.style.display= 'block'
+        display = 0;
+        div.style.display='none'
+        intro.style.display='none'
+        about.style.display='none'
+        contact.style.display='none'
+        project.style.display='none'
+        footer.style.display='none'
+        projectMore.style.display='none'
+        servicesMore.style.display='none'
+
+
+    }else{
+        navi.style.display = 'none';
+        display = 1;
+        div.style.display='block'
+        intro.style.display='block'
+        about.style.display='block'
+        contact.style.display='block'
+        project.style.display='block'
+        footer.style.display='block'
+        projectMore.style.display='block'
+        servicesMore.style.display='block'
+    
+    }
+  }

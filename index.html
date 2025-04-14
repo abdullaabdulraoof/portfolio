@@ -15,21 +15,35 @@
 <body>
     <header>
         <div class="navbar">
+            
             <div class="title">
                 <h1>Abdulla.</h1>
             </div>
-            <div class="nav-text">
+            <div class="nav-text" id="nav-text">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <input type="checkbox"id="check">
+            <label for="check" class="checkbtn">
+                <button style="text-decoration: none; border: none; background-color: white; font-size: 24px"onclick="dashClick()"><i class="fas fa-bars"></i></button>
+            </label>
+        </div>
+
+    </header>
+    <div class="line"></div>
+    <div>
+        <div class="navi" id="navi">
+            <div class="navi-text" id="navi-text">
                 <a href="#about">About</a>
                 <a href="#services">Services</a>
                 <a href="#project">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
         </div>
-
-    </header>
-    <div class="line"></div>
-
-    <div class="intro">
+    </div>
+    <div class="intro" id="intro">
         <div class="main">
             <h1 id="name">Hi, I’m Abdulla</h1>
             <div class="sub">
@@ -124,8 +138,8 @@
                     </div>
             </div>
         </div>
-        <div class="services-more">
-                <div style="text-align: center;"><button id="btn"><i class="fa-solid fa-angles-down " style="color: #000000;"></i></button></div>
+        <div class="services-more" id="services-more">
+                <div  style="text-align: center;"><button id="btn"><i class="fa-solid fa-angles-down " style="color: #000000;"></i></button></div>
         </div>
   
 
@@ -175,8 +189,8 @@
             </div>
             
         </div>
-    </div><div class="project-more">
-            <div style="text-align: center;"><button id="btnn"><i class="fa-solid fa-angles-down" style="color: #000000;"></i></button></div>
+    </div><div class="project-more" id="project-more">
+            <div id="project-more" style="text-align: center;"><button id="btnn"><i class="fa-solid fa-angles-down" style="color: #000000;"></i></button></div>
         </div>
         
     
@@ -218,7 +232,7 @@
 </div>
 
 <footer >
-    <div class="footer-content">
+    <div class="footer-content" id="footer">
         <div class="footer-writings">
             <div class="footer-title" style="color: white;     text-align: left;     color: white;
             text-align: left;
