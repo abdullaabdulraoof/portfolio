@@ -100,6 +100,9 @@ body{
 .about-education{
     margin-left: 88px;
 }
+.about-writings-p{
+    margin-bottom: 44px; color: #4B5563;
+}
 .list {
     margin-left: -19px;
     font-family: poppins;
@@ -432,5 +435,102 @@ footer{
         margin: auto;
         margin-top: 26px;
         font-weight: 500;
+    }
+    .navi-btn{
+        background-color: black;
+        border: none;
+        margin-top: 22px;
+    }
+
+    .main {
+        width: fit-content;
+        align-items: center;
+        position: absolute;
+        top: 21%;
+        left: 3%;
+    }
+
+
+    .about {
+        height: 908px;
+        width: 100%;
+        max-width: 1505px;
+        background-color: #E5E7EB;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+    
+    .about-content {
+        display: block;
+    }
+    .about-img {
+        width: 486px;
+        height: 458px;
+        margin-left: 0px;
+    }
+    
+    .about-img img{
+        width: 491px;
+        opacity: 1.8;
+    }
+    
+    .about-writings {
+        margin-top: -151px;
+        margin-left: 34px;
+        font-family: Montserrat;
+    } 
+    .about-writings h1{
+        margin-bottom: 27px;
+        color: white;
+        width: 406px;
+    }
+    .about-writings-p{
+        margin-bottom: 44px;
+        width: 429px;
+        font-size: 12px;
+        color: white;
+    }
+    
+    .about-desc {
+        display: flex;
+        width: 415px;
+        padding-left: 0px;
+    } 
+    .about-skill{
+        margin-left: 28px;
+    }
+    
+    .about-education {
+        margin-left: 166px;
+    }
+    .services {
+        height: 1003px;
+        width: 100%;
+        max-width: 1505px;
+        margin: auto;
+        overflow: hidden;
+        transition-duration: 0.2s;
+    }
+    .services-list{
+        display:block;
+    
+    }
+    .services-provide {
+        border: solid 1px #E5E7EB;
+        width: 394.67px;
+        height: 188px;
+        font-family: Montserrat;
+        border-radius: 12px;
+        text-align: center;
+        padding-top: 44px;
+        margin-right: 32px;
+        margin: auto;
+        margin-top: 48px;
+    }
+    .project-list{
+        display:block;
+    
     }
 }

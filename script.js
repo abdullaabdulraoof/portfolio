@@ -6,10 +6,10 @@ let div = _f('services');
 let btn = _f('btn')
 
 btn.onclick = function(){
-    if(div.style.height == '832px'){
-        div.style.height = '432px';
+    if(div.style.height == '1932px'){
+        div.style.height = '1003px';
     }else{
-        div.style.height = '832px';
+        div.style.height = '1932px';
     }
     
     
@@ -90,7 +90,7 @@ let servicesMore = _f('services-more')
         about.style.display='none'
         contact.style.display='none'
         project.style.display='none'
-        footer.style.display='none'
+        footer.style.display='block'
         projectMore.style.display='none'
         servicesMore.style.display='none'
 
@@ -106,6 +106,131 @@ let servicesMore = _f('services-more')
         footer.style.display='block'
         projectMore.style.display='block'
         servicesMore.style.display='block'
+    
+    }
+  }
+
+  function showAbout(){
+    if(display ==1){
+        about.style.display= 'block'
+        display = 0;
+        div.style.display='none'
+        intro.style.display='none'
+        navi.style.display='none'
+        contact.style.display='none'
+        project.style.display='none'
+        footer.style.display='block'
+        projectMore.style.display='none'
+        servicesMore.style.display='none'
+
+
+    }else{
+        about.style.display = 'none';
+        display = 1;
+        div.style.display='block'
+        intro.style.display='block'
+        navi.styleabout.display='block'
+        contact.style.display='block'
+        project.style.display='block'
+        footer.style.display='block'
+        projectMore.style.display='block'
+        servicesMore.style.display='block'
+    
+    }
+  }
+
+
+  function showServices(){
+    if(display ==1){
+        div.style.display= 'block'
+        servicesMore.style.display='block'
+        display = 0;
+        about.style.display='none'
+        intro.style.display='none'
+        navi.style.display='none'
+        contact.style.display='none'
+        project.style.display='none'
+        footer.style.display='block'
+        projectMore.style.display='none'
+        
+
+
+    }else{
+        div.style.display= 'none'
+        servicesMore.style.display='none'
+        display = 1;
+        about.style.display='block'
+        intro.style.display='block'
+        navi.styleabout.display='block'
+        contact.style.display='block'
+        project.style.display='block'
+        footer.style.display='block'
+        projectMore.style.display='block'
+
+    
+    }
+  }
+
+
+  function showProject(){
+    if(display ==1){
+        project.style.display= 'block'
+        projectMore.style.display='block'
+        display = 0;
+        about.style.display='none'
+        intro.style.display='none'
+        navi.style.display='none'
+        contact.style.display='none'
+        div.style.display='none'
+        footer.style.display='block'     
+        servicesMore.style.display='none'
+        
+
+
+    }else{
+        project.style.display= 'none'
+        projectMore.style.display='none'
+        display = 1;
+        about.style.display='block'
+        intro.style.display='block'
+        navi.styleabout.display='block'
+        contact.style.display='block'
+        div.style.display='block'
+        footer.style.display='block'
+        servicesMore.style.display='block'
+    
+    }
+  }
+
+  
+  function showContact(){
+    if(display ==1){
+        contact.style.display= 'block'
+        
+        display = 0;
+        about.style.display='none'
+        intro.style.display='none'
+        navi.style.display='none'
+        project.style.display='none'
+        div.style.display='none'
+        footer.style.display='block'     
+        servicesMore.style.display='none'
+        projectMore.style.display='none'
+        
+
+
+    }else{
+        contact.style.display= 'none'
+        
+        display = 1;
+        about.style.display='block'
+        intro.style.display='block'
+        navi.styleabout.display='block'
+        project.style.display='block'
+        div.style.display='block'
+        footer.style.display='block'
+        servicesMore.style.display='block'
+        projectMore.style.display='block'
     
     }
   }
