@@ -1,16 +1,32 @@
 function _f(id){
     return document.getElementById(id);
 }
-
 let div = _f('services');
-let btn = _f('btn')
+let btn = _f('btn');
 
-btn.onclick = function(){
-    if(div.style.height == '1932px'){
-        div.style.height = '1003px';
-    }else{
-        div.style.height = '1932px';
+btn.onclick = function () {
+    const media858 = window.matchMedia("(max-width: 858px)");
+    const media1600 = window.matchMedia("(max-width: 1600px)");
+
+    const currentHeight = window.getComputedStyle(div).height;
+
+    if (media858.matches) {
+        if (currentHeight === '1932px') {
+            div.style.height = '1003px';
+        } else {
+            div.style.height = '1932px';
+        }
+    } else if (media1600.matches) {
+        if (currentHeight === '832px') {
+            div.style.height = '432px';
+        } else {
+            div.style.height = '832px';
+        }
     }
+};
+
+
+
     
     
     // if(div.className == 'cls'){
@@ -20,19 +36,32 @@ btn.onclick = function(){
     //     div.className = 'cls';
     //     btn.innerHTML = 'show less'
     // }
+    // 
+    let divv = document.querySelector('#project');
+    let btnn = document.querySelector('#btnn');
+    
+    btnn.onclick = function () {
+        const media858 = window.matchMedia("(max-width: 858px)");
+        const media1280 = window.matchMedia("(max-width: 1600px)");
+    
+        const currentHeight = window.getComputedStyle(divv).height;
+    
+        if (media858.matches) {
+            if (currentHeight === '1792px') {
+                divv.style.height = '892px';
+            } else {
+                divv.style.height = '1792px';
+            }
+        } else if (media1280.matches) {
+            if (currentHeight === '1292px') {
+                divv.style.height = '692px';
+            } else {
+                divv.style.height = '1292px';
+            }
+        }
+    };
+    
 
-}
-
-let divv = document.querySelector('#project')
-let btnn = document.querySelector('#btnn')
-
-btnn.onclick= function (){
-    if(divv.style.height=='1192px'){
-        divv.style.height='692px';
-    }else{
-        divv.style.height='1192px';
-    }
-}
 // it will download thye resume
 
 let down = document.getElementById('contact-me-btn');
