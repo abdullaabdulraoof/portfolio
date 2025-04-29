@@ -100,6 +100,9 @@ body{
 .about-education{
     margin-left: 88px;
 }
+.about-experiance{
+    margin-left: 88px;
+}
 .about-writings-p{
     margin-bottom: 44px; color: #4B5563;
 }
@@ -504,6 +507,7 @@ footer{
     .about-skill{
         margin-left: 28px;
     }
+
     
     .about-education {
         margin-left: 166px;
